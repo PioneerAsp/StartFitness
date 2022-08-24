@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="411dp"
+        android:layout_height="370dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/startfitness_logo"
+        android:src="@drawable/startfitness_logo" />
+
+    <Button
+        android:id="@+id/exercisesB"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFC107"
+        android:onClick="onExercises"
+        android:text="@string/Ejercicios"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:rippleColor="#9C27B0" />
+
+    <Button
+        android:id="@+id/gymB"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFC107"
+        android:onClick="onGyms"
+        android:text="@string/Gimnacios"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:rippleColor="#9C27B0" />
+
+    <Button
+        android:id="@+id/Fav"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFC107"
+        android:onClick="onFavorite"
+        android:text="@string/favorites"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:rippleColor="#9C27B0" />
+
+</LinearLayout>

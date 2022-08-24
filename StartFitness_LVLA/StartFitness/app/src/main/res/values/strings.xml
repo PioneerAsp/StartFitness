@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Start Fitness</string>
+    <string name="startfitness_logo">Start Fitness logo</string>
+    <string name="exercises_logo">Exercises logo</string>
+    <string name="Ejercicios">EJERCICIOS</string>
+    <string name="Gimnacios">GYMS</string>
+    <string name="favorite">Favorito</string>
+    <string name="pecho">PECHO</string>
+    <string name="espalda">ESPALDA</string>
+    <string name="brazo">BRAZO</string>
+    <string name="hombro">HOMBRO</string>
+    <string name="pierna">PIERNA</string>
+
+    <string name="favorites">FAVORITOS</string>
+    <string name="favoritesP">FAVORITOS PECHO</string>
+    <string name="favoritesE">FAVORITOS ESPALDA</string>
+    <string name="favoritesB">FAVORITOS BRAZO</string>
+    <string name="favoritesH">FAVORITOS HOMBRO</string>
+    <string name="favoritesPi">FAVORITOS PIERNA</string>
+    <string name="mapa">MAPS</string>
+    <string name="mapaN">Gyms cerca</string>
+    <string name="send">SEND</string>
+
+    <string-array name="optionsExercises">
+        <item> PECHO </item>
+        <item> ESPALDA </item>
+        <item> BRAZO </item>
+        <item> HOMBRO </item>
+        <item> PIERNA </item>
+    </string-array>
+</resources>

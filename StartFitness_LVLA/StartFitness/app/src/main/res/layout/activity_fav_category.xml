@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FavCategoryActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:contentDescription="@string/exercises_logo"
+        android:src="@drawable/favorite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/favorites"
+        android:textAlignment="center"
+        android:textColor="#ECB205"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/list_options_exercises_fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99FFEB3B"
+        android:entries="@array/optionsExercises" />
+</LinearLayout>

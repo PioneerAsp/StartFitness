@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PechoCategoryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/pecho"
+        android:textAlignment="center"
+        android:textColor="#E40E0E"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/list_options_pecho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#9EC1181D"
+        android:cacheColorHint="#F6F0F0"/>
+
+</LinearLayout>
