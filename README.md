@@ -1,5 +1,6 @@
 # StartFitness
 Proyecto de Móviles
-
-Este es mi proyecto que hice en mi clase de programación de dispositivos móviles.
-Es una aplicación sencilla que contiene diferentes rutinas de ejercicios para los musculos del cuerpo.
+Esta aplicación está dirigida para usuarios que no tienen conocimientos sobre la variedad de ejercicios que se realizan en los gimnasios con equipos y pesas para el máximo aprovechamiento del cuerpo humano. También tiene como objetivo hacer que el usuario tenga un control más amplio sobre los ejercicios que realiza en el gimnasio con ayuda de descripciones, gifs e imágenes para hacerlo de forma correcta.
+Entre las opciones también está el apoyar con información de gimnasios que se encuentren principalmente en la ciudad de Tijuana; con su respectiva ubicación y plan de pagos. También se plantea la idea de poder promover opciones más detalladas según la ubicación en la que se encuentre el usuario.
+Podrá ser ejecutada tanto en móviles cómo tabletas siempre y cuando cumplan con los requerimientos del software. Se planea implementar una base de datos SQLite con la que se apoyará para guardar toda la información correspondiente a ejercicios, gifs, imágenes, gimnasios y más. Se contempla utilizar actividades que provee el ambiente de desarrollo android studio para la activación de clases, el uso de hilos para la fluidez de la información y una buena estructura para el correcto funcionamiento de la aplicación.
+![image](https://user-images.githubusercontent.com/61612843/209575344-513bf580-4353-4eb9-b737-48bc7f13f646.png)
